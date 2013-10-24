@@ -1,5 +1,5 @@
 html {
-	background: url('noise_background.png');
+	background: url('../img/noise_background.png');
 }
 
 .container{
@@ -34,7 +34,7 @@ section  {
 }
 
 section#background {
-    background: url("background_frankfurter_tor.png") no-repeat center 92px;
+    background: url("../img/background_frankfurter_tor.png") no-repeat center 92px;
 
     height: 420px;
     border-bottom: 1px solid #e0e0e0;
@@ -128,35 +128,35 @@ section > div.project{
     border-radius: 7px;
     box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
     padding: 50px 70px;
-    background: url(oleapark_website.png) no-repeat 402px 30px white;
+    background: url(../img/oleapark_website.png) no-repeat 402px 30px white;
     height: 445px;
 }
 
 section > div.project#oleapark-website{
-    background: url(oleapark_website.png) no-repeat 402px 30px white;
+    background: url(../img/oleapark_website.png) no-repeat 402px 30px white;
     margin-top: 40px;
 }
 
 section > div.project#oleapark-participant{
-    background: url(oleapark_participants.png) no-repeat 300px 0 white;
+    background: url(../img/oleapark_participants.png) no-repeat 300px 0 white;
 }
 
 section > div.project#oleapark-organizer{
-    background: url(oleapark_organizers.png) no-repeat 185px 0 white;
+    background: url(../img/oleapark_organizers.png) no-repeat 185px 0 white;
 }
 
 section > div.project#gyg-iphone{
-    background: url(gyg_iphone.png) no-repeat 60px 0 white;
+    background: url(../img/gyg_iphone.png) no-repeat 60px 0 white;
     margin-top: 40px;
 }
 
 section > div.project#oleapark-iphone{
-    background: url(oleapark_iphone.png) no-repeat 60px 0 white;
+    background: url(../img/oleapark_iphone.png) no-repeat 60px 0 white;
     margin-top: 40px;
 }
 
 section > div.project#oleapark-web-mobile{
-    background: url(oleapark_web_mobile.png) no-repeat 60px 0 white;
+    background: url(../img/oleapark_web_mobile.png) no-repeat 60px 0 white;
 }
 
 section > div.project h3.project-title{
