@@ -34,8 +34,8 @@ section  {
 }
 
 section#background {
-    background: url("../img/background_frankfurter_tor.png") no-repeat center 92px;
-
+    background: url("../img/background_frankfurter_tor.png") no-repeat center 92px fixed;
+    position: relative;
     height: 420px;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;

@@ -4,37 +4,10 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-    
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/design.css" />
 	<title>Karl Schaeffler, French engineer based in Berlin</title>
-    
-<script type="text/javascript">
-$(function() {
-    $('div.device a, section#background p a').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 1000);
-        return false;
-    });
-});
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38156513-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 </head>
 
@@ -44,7 +17,7 @@ $(function() {
 		<h1>Karl Schaeffler</h1>
 	</header>
     
-    <section id="background">
+    <section id="background" data-type="background" data-speed="2">
 		<article>
         	<h1>Hello,</h1>
 	        <p>I am a French engineer based in Berlin, who enjoys creating, designing and developing innovative projects on <a href="#web-anchor">web</a> and  <a href="#mobile-anchor">mobile</a>.</p>
@@ -173,6 +146,23 @@ $(function() {
         </div>
 	</footer>
 
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38156513-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 
 </html>
