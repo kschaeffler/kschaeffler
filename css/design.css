@@ -394,7 +394,7 @@ footer .container a#contact:hover {
 }
 
 footer .container #social {
-    width: 330px;
+    width: 455px;
 
     margin: 40px auto 50px;
 }
@@ -424,12 +424,20 @@ footer .container #social a#linkedin:hover {
     background: #0073b2;
 }
 
-footer .container #social a#google:hover {
-    background: #ca3f2f;
+footer .container #social a#github:hover {
+    background: #4183C4;
 }
 
 footer .container #social a#pinterest:hover {
     background: #cd1f28;
+}
+
+footer .container #social a#instagram:hover {
+    background: #4f7ca2;
+}
+
+footer .container #social a#soundcloud:hover {
+    background: #ff6000;
 }
 
 footer .container #social a:last-child{
